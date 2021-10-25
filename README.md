@@ -1,9 +1,16 @@
 # morse
 
-A Clojure library designed to ... well, that part is up to you.
+Convert text to morse code.
 
-## Usage
+## Run
 
-FIXME
+```
+$ lein run "Look! What is this piano that falls from the sky?"
+•-•• --- --- -•-!  •-- •••• •- -  •• •••  - •••• •• •••  •--• •• •- -• ---  - •••• •- -  ••-• •- •-•• •-•• •••  ••-• •-•  --- --  - •••• •  ••• -•- -•--?
+```
 
-## License
+## Tests
+
+```
+$ lein test
+```
