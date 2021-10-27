@@ -24,7 +24,7 @@
          (morse.core/morse-reduce-predicate "123" "?")))))
 
 (deftest to-morse-test
-  (testing "Convert text to morse code"
+  (testing "to-morse"
     (is (=
          "•-"
          (morse.core/to-morse "A")))
